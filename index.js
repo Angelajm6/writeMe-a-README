@@ -1,5 +1,6 @@
 const inquirer = require('inquirer')
-const generatorMarkdown = require ('./utils/generateMarkdown');
+const generateMarkdown = require ('./utils/generateMarkdown');
+const util = require ('util');
 
 
 //Array of questions for user input
@@ -54,7 +55,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions)
         .then(function(data) {
-            writeToFile("README.md", generatorMarkdown(data));
+            writeToFile("README.md", generateMarkdown(data));
             console.log(data)
         })
 }

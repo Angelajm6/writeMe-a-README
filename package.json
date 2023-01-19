@@ -11,13 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/potential-enigma.git"
-  },
-  "bugs": {
-    "url": "https://github.com/coding-boot-camp/potential-enigma/issues"
-  },
-  "homepage": "https://github.com/coding-boot-camp/potential-enigma#readme"
+  }
 }
