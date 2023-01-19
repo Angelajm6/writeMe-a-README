@@ -4,17 +4,17 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
 
-# Description
+# README Generator
 ${data.Description}
 
 ## Table of Contents
-- [Project description] (#Description)
-- [Installation] (#Installation)
-- [Usage] (#Usage)
-- [License] (#License)
-- [Contribution] (#Contributing)
-- [Tests] (#Tests)
-- [Questions] (#Questions)
+* [Project description] (#Description)
+* [Installation] (#Installation)
+* [Usage] (#Usage)
+* [License] (#License)
+* [Contribution] (#Contributing)
+* [Tests] (#Tests)
+* [Questions] (#Questions)
 
 
 ## Installation
@@ -25,13 +25,13 @@ ${data.Installation}
 In order to use this app, ${data.Usage}
 
 ## License
-This project is licensed under the ${data.License} license. 
+This project is licensed under the ${data.License}.  
 
 ## Contributing
 Contributors: ${data.Contributing}
 
 ## Tests
-In order to urun the test, ${data.Tests} is needed.
+In order to run the test, ${data.Tests} is needed.
 
 ## Questions
 If you have any questions about the repo or the project usage, please open an issue or contact me!
