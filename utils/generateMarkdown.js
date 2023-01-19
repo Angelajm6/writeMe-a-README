@@ -20,7 +20,7 @@ ${data.Description}
 
 ##Installation
 The following necessary dependencies must be installed to be able to run this application.
-${answers.installation}
+${answers.Installation}
 
 ##Usage
 In order to use this app, ${answers.Usage}
@@ -36,8 +36,8 @@ In order to urun the test, ${data.Tests} is needed.
 
 ##Questions
 If you have any questions about the repo or the project usage, please open an issue or contact me!
-${answers.email}
-${answers.github}
+${answers.Email}
+${answers.Github}
 
 `
   }
