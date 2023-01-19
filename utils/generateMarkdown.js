@@ -3,10 +3,8 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
 
-# ${data.title}
-http://github.com/${data.Username}/${data.title}
 
-#Description
+# Description
 ${data.Description}
 
 ## Table of Contents
@@ -19,23 +17,23 @@ ${data.Description}
 - [Questions] (#Questions)
 
 
-##Installation
+## Installation
 The following necessary dependencies must be installed to be able to run this application.
 ${data.Installation}
 
-##Usage
+## Usage
 In order to use this app, ${data.Usage}
 
-##License
+## License
 This project is licensed under the ${data.License} license. 
 
-##Contributing
+## Contributing
 Contributors: ${data.Contributing}
 
-##tests
+## Tests
 In order to urun the test, ${data.Tests} is needed.
 
-##Questions
+## Questions
 If you have any questions about the repo or the project usage, please open an issue or contact me!
 ${data.Email}
 ${data.Github}
