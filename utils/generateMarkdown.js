@@ -21,24 +21,24 @@ ${data.Description}
 
 ##Installation
 The following necessary dependencies must be installed to be able to run this application.
-${answers.Installation}
+${data.Installation}
 
 ##Usage
-In order to use this app, ${answers.Usage}
+In order to use this app, ${data.Usage}
 
 ##License
-This project is licensed under the ${answers.License} license. 
+This project is licensed under the ${data.License} license. 
 
 ##Contributing
-Contributors: ${answers.Contributing}
+Contributors: ${data.Contributing}
 
 ##tests
 In order to urun the test, ${data.Tests} is needed.
 
 ##Questions
 If you have any questions about the repo or the project usage, please open an issue or contact me!
-${answers.Email}
-${answers.Github}
+${data.Email}
+${data.Github}
 
 `
   }
