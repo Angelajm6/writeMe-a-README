@@ -17,8 +17,6 @@ ${data.Description}
 - [Tests] (#Tests)
 - [Questions] (#Questions)
 
-## Description
-${answers.description}
 
 ##Installation
 The following necessary dependencies must be installed to be able to run this application.
