@@ -1,20 +1,48 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+class MarkDown {
+  static generateReadme(answers) {
+    return `
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+# ${data.title}
+http://github.com/${data.Username}/${data.title}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+#Description
+${data.Description}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+## Table of Contents
+- [Project description] (#Description)
+- [Installation] (#Installation)
+- [Usage] (#Usage)
+- [License] (#License)
+- [Contribution] (#Contributing)
+- [Tests] (#Tests)
+- [Questions] (#Questions)
 
-`;
+## Description
+${answers.description}
+
+##Installation
+The following necessary dependencies must be installed to be able to run this application.
+${answers.installation}
+
+##Usage
+In order to use this app, ${answers.Usage}
+
+##License
+This project is licensed under the ${answers.License} license. 
+
+##Contributing
+Contributors: ${answers.Contributing}
+
+##tests
+In order to urun the test, ${data.Tests} is needed.
+
+##Questions
+If you have any questions about the repo or the project usage, please open an issue or contact me!
+${answers.email}
+${answers.github}
+
+`
+  }
 }
 
-module.exports = generateMarkdown;
+module.exports = MarkDown

@@ -1,4 +1,5 @@
 const inquirer = require('inquirer')
+const markDown = require ('./utils/generateMarkdown');
 
 
 //Array of questions for user input
