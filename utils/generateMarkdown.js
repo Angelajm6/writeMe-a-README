@@ -1,14 +1,14 @@
 function generateMarkdown(data) {
 
-  return `# ${data.title}
-  ${renderLicenseBadge(data.license)}
+  return `# ${data.Title}
+  ${renderLicenseBadge(data.License)}
 
 
 # README Generator
 ${data.Description}
 
 ## Table of Contents
-* [Project description] (#Description)
+* [Description] (#Description)
 * [Installation] (#Installation)
 * [Usage] (#Usage)
 * [License] (#License)
@@ -31,7 +31,7 @@ This project is licensed under the ${data.License}.
 Contributors: ${data.Contributing}
 
 ## Tests
-In order to run the test, ${data.Tests} is needed.
+In order to invoke this app, run node index.js command. 
 
 ## Questions
 If you have any questions about the repo or the project usage, please open an issue or contact me!

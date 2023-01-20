@@ -1,9 +1,8 @@
-
-# Description
-This app allows developers to create a professional README.md file in a way that is clear, organized and easy to understand, using the inquirer package. 
+# README generator
+This app allows developers to dinamically create a professional README.md file in a way that is clear, organized and easy to understand, using the inquirer package.
 
 ## Table of Contents
-- [Project description] (#Description)
+- [Decription] (#Description)
 - [Installation] (#Installation)
 - [Usage] (#Usage)
 - [License] (#License)
@@ -25,11 +24,12 @@ This project is licensed under the The MIT License license.
 ## Contributing
 Contributors: Feel free to contribute to better improve this app creating a PR
 
-## tests
-In order to urun the test,  is needed.
+## Tests
+In order to run the test: Create a .gitignore file and include node_modules/ and .DS_Store/. Then install the inquirer package and the necessary dependencies before generating a professional README.md file. 
 
 ## Questions
 If you have any questions about the repo or the project usage, please open an issue or contact me!
-For further questions, send me an email to angelajaume.m@gmail.com
-For any questions, please reach out to https://github.com/Angelajm6
+GitHub: https://github.com/Angelajm6
+Email: angelajaume.m@gmail.com
+
 
