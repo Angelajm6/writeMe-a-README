@@ -18,6 +18,11 @@ It is important to have VS Code installed or any code editor of your preference 
 ## Usage
 In order to use this app, Run ‘npm install’ to install the necessary package dependencies. Open ‘index.js’ in integrated terminal and run ‘node index.js’ from the CL. Answer the prompted questions in the CL to create a markdown file for a README.
 
+Refer to the video to see its usage:
+
+[Quick How To For README project.webm](https://user-images.githubusercontent.com/109991922/213607602-09b0fab4-c32a-48de-9a4e-f421cce5a789.webm)
+
+
 ## License
 This project is licensed under the The MIT License license. 
 
