@@ -29,6 +29,7 @@ In order to run the test: Create a .gitignore file and include node_modules/ and
 
 ## Questions
 If you have any questions about the repo or the project usage, please open an issue or contact me!
+
 GitHub: https://github.com/Angelajm6
 Email: angelajaume.m@gmail.com
 
