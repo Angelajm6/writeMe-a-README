@@ -41,6 +41,49 @@ ${data.Github}
 `
   }
 
+  
+// function that returns the license link
+function renderLicenseLink(license) {
+  switch (license) {
+    case "agpl-3.0":
+    return "https://www.gnu.org/licenses/agpl-3.0";
+      
+    case "gpl-3.0":
+    return "https://www.gnu.org/licenses/gpl-3.0";
+      
+    case "lgpl-3.0":
+    return "https://www.gnu.org/licenses/lgpl-3.0";
+      
+    case "mpl-2.0":
+    return "https://opensource.org/licenses/MPL-2.0";
+      
+    case "apache-2.0":
+    return "https://opensource.org/licenses/Apache-2.0";
+        
+    case "mit":
+    return "https://opensource.org/licenses/MIT";
+          
+    case "bsl-1.0":
+    return "https://www.boost.org/LICENSE_1_0.txt";
+            
+    case "unlicense":
+    return "http://unlicense.org/";    
+
+    case "none":
+    return "";
+  }
+};
+
+
+// function that returns the license section of README
+var licenseDescription
+function renderLicenseSection(license) {
+  if (license === 'none') {
+    return ``;
+  } else {
+  return `To learn more about the ${license} license, click on the URL provided.`
+  }
+};
 
 
 // If there is no license, return an empty string
