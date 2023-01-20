@@ -30,7 +30,7 @@ const questions = [
             type:`list`,
             message: `What license did you use?`,
             name: `License`,
-            choices:['The MIT License', 'The GPL License', 'Apache License', 'GNU license', 'N/A']
+            choices:['MIT License', 'The GPL License', 'Apache License', 'GNU license', 'N/A']
         }, {
             type:`input`,
             message: `Guidelines for further contribution`,
