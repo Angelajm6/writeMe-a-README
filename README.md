@@ -4,13 +4,13 @@ To read more about this package, refer to : https://www.npmjs.com/package/inquir
 
 
 ## Table of Contents
-- [Decription] (#Description)
-- [Installation] (#Installation)
-- [Usage] (#Usage)
-- [License] (#License)
-- [Contribution] (#Contributing)
-- [Tests] (#Tests)
-- [Questions] (#Questions)
+- [Decription](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contribution](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
 
 ## Installation
