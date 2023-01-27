@@ -1,10 +1,12 @@
 # README generator
+
+## Description 
 This app allows developers to dinamically create a professional README.md file in a way that is clear, organized and easy to understand, using the inquirer package.
 To read more about this package, refer to : https://www.npmjs.com/package/inquirer/v/8.2.4?activeTab=readme
 
 
 ## Table of Contents
-- [Decription](#Description)
+- [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [License](#License)
